@@ -49,7 +49,7 @@ img {
 
 h1, h2, h3 {
     text-align: center; 
-    color: var(--darkbrown);
+    color: var(--brown);
     font-family: var(--font);
 }
 
@@ -83,7 +83,7 @@ h3 {
 /**Navigation**/
 .navigation {
     background-color: var(--darkbrown);
-    padding: 0.7rem 0rem;
+    padding: 1rem 0rem;
     display: flex;
     justify-content: center;
     gap: 10rem; /*Para separar elementos en el flexbox*/
@@ -92,7 +92,7 @@ h3 {
 .navigation__link {
     font-family: var(--font);
     color: white;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 .navigation__link--active,
