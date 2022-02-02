@@ -1,2 +1,2 @@
-# Apparel_Website
-Website of a clothing store.
+# The Clothing Zimmer 
+Website for "The Clothing Zimmer" to schowcase their products.
