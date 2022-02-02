@@ -86,19 +86,62 @@ h3 {
     padding: 1rem 0rem;
     display: flex;
     justify-content: center;
-    gap: 10rem; /*Para separar elementos en el flexbox*/
+    /*gap: 10rem; New way of separating elements in flexbox*/
 }
 
 .navigation__link {
     font-family: var(--font);
     color: white;
     font-size: 2.5rem;
+    margin-right: 2rem; /*Older way of separating elements in flexbox*/
+   
 }
+
+.navigation__link:last-of-type {
+    margin-right: 0;
+}
+
 
 .navigation__link--active,
 .navigation__link:hover  {
     color: #babbae;
   
+}
+
+/**Grid**/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 768px ){
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .product img {
+        max-height: 400px; 
+    }
+}
+
+
+/**Products**/
+.product {
+
+}
+
+.product__image {
+
+}
+
+.product__information {
+
+}
+
+.product__name {
+
+}
+
+.product__price {
+    
 }
 
 /**Footer**/
