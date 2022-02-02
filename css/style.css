@@ -64,3 +64,52 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+
+/**Header**/
+
+.header {
+    display: flex;
+    justify-content: center; /*Horizontally centers*/
+}
+
+.header__logo {
+    /*1rem of margin at the top and bottom
+    0 of margin at the left and right*/
+    margin: 1rem 0; 
+    height: 100px;
+    
+}
+
+/**Navigation**/
+.navigation {
+    background-color: var(--darkbrown);
+    padding: 0.7rem 0rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem; /*Para separar elementos en el flexbox*/
+}
+
+.navigation__link {
+    font-family: var(--font);
+    color: white;
+    font-size: 2.2rem;
+}
+
+.navigation__link--active,
+.navigation__link:hover  {
+    color: #babbae;
+  
+}
+
+/**Footer**/
+.footer {
+    background-color: black;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    
+}
+
+.footer__text {
+    color:white;
+    text-align: center;
+}
